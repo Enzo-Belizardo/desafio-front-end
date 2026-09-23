@@ -15,7 +15,7 @@ function ListarChamado({ chamados, aoExcluir }) {
     return (
         <main className="pagina">
             <h1>Lista de chamados</h1>
-            <span style={{ fontWeight: "bold", color: "black" }}>Desafio Tecnico. Desenvolvindo por Henrique Porto de Sousa</span>
+            <span style={{ fontWeight: "bold", color: "black" }}>Feito por: Enzo Silva Belizardo </span>
             <ul className="lista">
                 {chamados.map((chamado) => (
                     <li key={chamado.id}>
