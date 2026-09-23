@@ -4,7 +4,7 @@
 
 /* Cabeçalho */
 .cabecalho {
-  background-color: #0a749e;
+  background-color: #9e0a0a;
   color: #ffffff;
 }
 
@@ -41,7 +41,7 @@
 .botao-alternar {
   margin: 0 0 24px;
   padding: 10px 18px;
-  background-color: #0a749e;
+  background-color: #9e0a0a;
   color: #ffffff;
   border: none;
   border-radius: 6px;
@@ -50,7 +50,7 @@
 }
 
 .botao-alternar:hover {
-  background-color: rgb(20, 95, 145);
+  background-color: rgb(145, 20, 20);
 }
 
 /* Organização dos módulos */
@@ -81,7 +81,7 @@
 .card-modulo {
   padding: 24px;
   background-color: #ffffff;
-  border-left: 5px solid #0a749e;
+  border-left: 5px solid #9e0a0a;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgb(0 0 0 / 10%);
   transition:
@@ -130,13 +130,13 @@
 
 .pagina h1 {
   margin: 0 0 16px;
-  color: #0a749e;
+  color: #740d1e;
   font-size: 2rem;
 }
 
 .pagina>p {
   margin-bottom: 24px;
-  color: #475569;
+  color: #694747;
   font-size: 1.1rem;
 }
 
@@ -151,8 +151,8 @@
 .opcoes a {
   padding: 24px;
   background-color: #eff6ff;
-  color: #0a749e;
-  border: 2px solid #bfdbfe;
+  color: #9e0a0a;
+  border: 2px solid #febfbf;
   border-radius: 8px;
   text-align: center;
   text-decoration: none;
@@ -164,7 +164,7 @@
 }
 
 .opcoes a:hover {
-  background-color: #dbeafe;
+  background-color: #fedbdb;
   transform: translateY(-3px);
 }
 
@@ -172,7 +172,7 @@
 .pagina>a {
   display: inline-block;
   margin-top: 16px;
-  color: #0a749e;
+  color: #9e0a0a;
   text-decoration: none;
   font-weight: 600;
 }
@@ -196,7 +196,7 @@
   gap: 6px;
   padding: 20px;
   background-color: #f8fafc;
-  border-left: 5px solid #0a749e;
+  border-left: 5px solid #9e0a0a;
   border-radius: 6px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -212,7 +212,7 @@
 }
 
 .lista span {
-  color: #475569;
+  color: #694747;
 }
 
 /* Formulário de cadastro de clientes */
@@ -237,8 +237,8 @@
 }
 
 .formulario input:focus {
-  border-color: #0a749e;
-  outline: 2px solid #bfdbfe;
+  border-color: #9e0a0a;
+  outline: 2px solid #febfbf;
 }
 
 .formulario input[type="number"]::-webkit-inner-spin-button,
@@ -269,7 +269,7 @@
   padding: 6px 10px;
   transform: translateY(-50%);
   background: transparent;
-  color: #0a749e;
+  color: #9e0a0a;
   font-size: 1.25rem;
   line-height: 1;
 }
@@ -293,7 +293,7 @@
   align-self: flex-start;
   margin-top: 16px;
   padding: 12px 20px;
-  background-color: #0a749e;
+  background-color: #9e0a0a;
   color: #ffffff;
   border: none;
   border-radius: 6px;
@@ -303,7 +303,7 @@
 }
 
 .formulario button:hover {
-  background-color: #06465f;
+  background-color: #5f0606;
 }
 
 .formulario select {
@@ -323,7 +323,7 @@
 }
 
 .formulario select:focus {
-  border-color: #0a749e;
+  border-color: #9e0a0a;
   outline: 2px solid #bfdbfe;
 }
 
